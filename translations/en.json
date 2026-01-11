@@ -1,0 +1,366 @@
+{
+  "common": {
+    "getQuote": "Get Quote",
+    "viewAll": "View All",
+    "explore": "Explore",
+    "startProject": "Start a Project",
+    "viewPortfolio": "View Portfolio",
+    "downloadPortfolio": "Download Portfolio",
+    "join": "Join",
+    "email": "Email address",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "allRightsReserved": "All rights reserved"
+  },
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "mission": "Mission",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "about": "About",
+    "whyUs": "Why Us"
+  },
+  "footer": {
+    "companyName": "VERTEX MEDIA",
+    "tagline": "Transforming ideas into powerful brand experiences. We lead with creativity and deliver with precision.",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "ourWork": "Our Work",
+    "careers": "Careers",
+    "services": "Services",
+    "branding": "Branding",
+    "digitalMedia": "Digital Media",
+    "production": "Production",
+    "printing": "Printing",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Stay updated with our latest projects and insights.",
+    "copyright": "© 2024 Vertex Media Group. All rights reserved."
+  },
+  "hero": {
+    "badge": "Premium Media Agency",
+    "title1": "Crafting",
+    "title2": "Legendary",
+    "title3": "Brand Experiences",
+    "subtitle": "Vertex Media Group bridges the gap between creativity and commerce. We deliver cinematic production, high-impact outdoor media, and strategic branding that dominates the market.",
+    "exploreWork": "Explore Our Work",
+    "ourStory": "Our Story",
+    "quickLink1": {
+      "number": "01",
+      "title": "Outdoor",
+      "description": "Dominating Skylines"
+    },
+    "quickLink2": {
+      "number": "02",
+      "title": "Digital",
+      "description": "Engaging Audiences"
+    },
+    "quickLink3": {
+      "number": "03",
+      "title": "Production",
+      "description": "Cinematic Results"
+    },
+    "quickLink4": {
+      "number": "04",
+      "title": "Branding",
+      "description": "Identity Refined"
+    },
+    "servicesSection": {
+      "label": "What We Do",
+      "title": "Comprehensive Media Solutions",
+      "viewAllServices": "View All Services"
+    },
+    "service1": {
+      "title": "Branding & Strategy",
+      "description": "Developing strong visual identities that resonate globally."
+    },
+    "service2": {
+      "title": "Outdoor Advertising",
+      "description": "Strategic billboard placements in high-traffic urban centers."
+    },
+    "service3": {
+      "title": "Video Production",
+      "description": "Cinematic content for social, TV, and corporate use."
+    },
+    "service4": {
+      "title": "Digital Marketing",
+      "description": "Data-driven campaigns that maximize ROI and reach."
+    },
+    "service5": {
+      "title": "Event Management",
+      "description": "End-to-end planning for high-profile corporate exhibitions."
+    },
+    "service6": {
+      "title": "Print & Fabrication",
+      "description": "Large format printing and bespoke architectural metalwork."
+    },
+    "advantageSection": {
+      "label": "The Vertex Advantage",
+      "title": "Why Industry Leaders Partner With Us",
+      "advantage1": {
+        "title": "Unmatched Precision",
+        "description": "Every pixel and frame is scrutinized to meet global standards."
+      },
+      "advantage2": {
+        "title": "Strategic Depth",
+        "description": "We don't just create visuals; we solve business challenges."
+      },
+      "advantage3": {
+        "title": "Reliability",
+        "description": "Our delivery timelines are rigid. We respect your campaign launches."
+      },
+      "yearsOfExcellence": "Years of Excellence",
+      "exploreProcess": "Explore Our Process"
+    },
+    "portfolioSection": {
+      "label": "Portfolio Highlights",
+      "title": "The Work Speaks",
+      "project1": {
+        "title": "Neon City Campaign",
+        "category": "Advertising"
+      },
+      "project2": {
+        "title": "TechSummit Brand identity",
+        "category": "Branding"
+      },
+      "project3": {
+        "title": "SolarFuture Commercial",
+        "category": "Production"
+      },
+      "viewCaseStudy": "View Case Study",
+      "exploreFullPortfolio": "Explore Full Portfolio"
+    },
+    "testimonialQuote": {
+      "text": "Vertex Media Group transformed our brand identity with a sophistication we didn't think possible. The cinematic quality of their production is simply unmatched in the region.",
+      "author": "Sarah Jenkins",
+      "role": "CMO at TechFlow"
+    },
+    "cta": {
+      "title": "Ready to Elevate Your Brand Presence?",
+      "description": "Let's collaborate to create something truly remarkable. Our team is ready to discuss your next big project.",
+      "startConversation": "Start a Conversation",
+      "ourServices": "Our Services"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive advertising and media solutions designed to elevate modern enterprises. We deliver premium quality across all media spectrums.",
+    "service1": {
+      "title": "Visual Identity & Branding",
+      "description": "Logo design, comprehensive brand guidelines, corporate stationery, and visual strategy."
+    },
+    "service2": {
+      "title": "Social Media & Marketing",
+      "description": "Strategic planning, content creation, community management, and targeted ad campaigns."
+    },
+    "service3": {
+      "title": "Banners & Printing",
+      "description": "High-quality large format printing, stickers, acrylics, and vinyl applications for all surfaces."
+    },
+    "service4": {
+      "title": "Outdoor Signage",
+      "description": "Illuminated signs, wayfinding systems, 3D rooftop lettering, and storefront visibility."
+    },
+    "service5": {
+      "title": "Site Fences & Safety",
+      "description": "Construction branding, project boards, safety signage, and perimeter hoarding solutions."
+    },
+    "service6": {
+      "title": "Metal & Artistic Fabrication",
+      "description": "Custom metalwork, artistic sculptures, decorative structures, and bespoke installations."
+    },
+    "service7": {
+      "title": "Building & Exhibition Facades",
+      "description": "Modern cladding, temporary event structures, booth design, and architectural wrapping."
+    },
+    "service8": {
+      "title": "Events Management",
+      "description": "End-to-end planning for exhibitions, conferences, corporate events, and logistics."
+    },
+    "service9": {
+      "title": "Media & Production",
+      "description": "Professional video production, corporate photography, and comprehensive audio services."
+    },
+    "cta": {
+      "title": "Ready to make an impact?",
+      "description": "Whether you need a full rebrand or a single sign, our team is ready to bring your vision to life."
+    }
+  },
+  "mission": {
+    "badge": "Our Core Purpose",
+    "title1": "Driving growth through",
+    "title2": "creativity",
+    "title3": "and commitment.",
+    "subtitle": "We don't just build campaigns; we build legacies. Our mission is to elevate brands through a fusion of artistic excellence and strategic precision.",
+    "missionStatement": {
+      "title": "Mission Statement",
+      "subtitle": "The four pillars that define our approach to every challenge."
+    },
+    "pillar1": {
+      "title": "Quality & Creativity",
+      "description": "Deliver integrated advertising solutions based on quality and creativity. We refuse to compromise on aesthetics or strategy."
+    },
+    "pillar2": {
+      "title": "Innovation",
+      "description": "Leverage experience and modern technologies. Staying ahead of the curve ensures your brand leads the conversation, not just follows it."
+    },
+    "pillar3": {
+      "title": "Partnership",
+      "description": "Build long-term relationships based on trust and commitment. We view ourselves as an extension of your team, dedicated to your growth."
+    },
+    "pillar4": {
+      "title": "Excellence",
+      "description": "Turn every project into a professional achievement that exceeds client expectations. \"Good enough\" is not in our vocabulary."
+    }
+  },
+  "testimonials": {
+    "label": "Client Success Stories",
+    "title1": "Trusted by",
+    "title2": "Industry Leaders",
+    "subtitle": "We partner with ambitious brands to create high-impact media campaigns that resonate globally.",
+    "testimonial1": {
+      "quote": "MediaCo transformed our brand identity with a sophistication we didn't think possible. The cinematic quality of their production is simply unmatched in the region.",
+      "author": "Sarah Jenkins",
+      "role": "CMO at TechFlow"
+    },
+    "testimonial2": {
+      "quote": "The team's understanding of the Middle East market paired with global standards is unmatched. They delivered our campaign two weeks ahead of schedule.",
+      "author": "Ahmed Al-Fayed",
+      "role": "Director at Dune Media"
+    },
+    "testimonial3": {
+      "quote": "Professional, creative, and incredibly high-impact results for our corporate campaigns. Their visual storytelling capability is the best in the business.",
+      "author": "Elena Rodriguez",
+      "role": "VP at SolarEnergy"
+    },
+    "testimonial4": {
+      "quote": "We needed a partner who could handle enterprise-level demands without sacrificing creativity. MediaCo exceeded every expectation.",
+      "author": "Marcus Chen",
+      "role": "Head of Brand, FinCorp"
+    },
+    "testimonial5": {
+      "quote": "Their strategic approach to digital advertising helped us increase our ROI by 150% in the first quarter alone.",
+      "author": "Layla Hassan",
+      "role": "Marketing Lead, RetailGroup"
+    },
+    "testimonial6": {
+      "quote": "From concept to execution, MediaCo operates on a completely different level. A truly premium service for premium brands.",
+      "author": "David Ross",
+      "role": "CEO at AutoPrime"
+    }
+  },
+  "about": {
+    "label": "About Our Agency",
+    "title1": "Transforming Ideas",
+    "title2": "into Reality.",
+    "description": "We are a professional advertising company dedicated to transforming ideas into reality that drives business success. We reflect the strength of your brand and create a clear, powerful presence among your competitors by delivering integrated advertising and promotional solutions tailored to your needs.",
+    "stats": {
+      "years": "Years Exp",
+      "projects": "Projects",
+      "globalClients": "Global Clients"
+    },
+    "viewCapabilities": "View Capabilities",
+    "awardWinning": "Award Winning",
+    "topAgency": "Top Agency 2024",
+    "coreValues": {
+      "title": "Our Core Values",
+      "subtitle": "Building your brand with precision, creativity, and a results-driven mindset.",
+      "value1": {
+        "title": "Integrated Solutions",
+        "description": "Comprehensive strategies combining digital, print, and media for all platforms."
+      },
+      "value2": {
+        "title": "Strategic Growth",
+        "description": "Data-driven approaches designed to scale your business and market share."
+      },
+      "value3": {
+        "title": "Premium Execution",
+        "description": "High-quality delivery and aesthetic precision that reflects your brand's true value."
+      }
+    }
+  },
+  "portfolio": {
+    "title1": "Selected",
+    "title2": "Work",
+    "subtitle": "Transforming brands through bold strategy, creative excellence, and digital innovation.",
+    "categoryAll": "All Work",
+    "categoryBranding": "Branding",
+    "categoryAdvertising": "Advertising",
+    "categoryDigital": "Digital",
+    "categoryProduction": "Production",
+    "categoryStrategy": "Strategy",
+    "project1": {
+      "title": "TechGlobal Rebrand",
+      "category": "Branding",
+      "description": "Comprehensive identity overhaul for a leading silicon valley tech giant."
+    },
+    "project2": {
+      "title": "Apex Campaign",
+      "category": "Advertising",
+      "description": "High-energy marketing campaign targeting Gen-Z gamers."
+    },
+    "project3": {
+      "title": "Neon Dreams",
+      "category": "Production",
+      "description": "Award-winning short film production with stunning visual effects."
+    },
+    "project4": {
+      "title": "Urban Flow",
+      "category": "Strategy",
+      "description": "Reimagining urban transportation systems for smart cities."
+    },
+    "project5": {
+      "title": "Future Finance",
+      "category": "Digital",
+      "description": "A seamless mobile banking experience for next-gen users."
+    },
+    "project6": {
+      "title": "EcoEnergy",
+      "category": "Branding",
+      "description": "Sustainable energy branding that connects with eco-conscious consumers."
+    },
+    "viewCaseStudy": "View Case Study",
+    "loadMore": "Load More Projects"
+  },
+  "whyUs": {
+    "badge": "Why Partner With Us",
+    "title1": "Building Brands with",
+    "title2": "Precision & Passion",
+    "subtitle": "We don't just create ads; we engineer market dominance. Our process is built on data, fueled by creativity, and executed with military precision.",
+    "stats": {
+      "globalClients": "Global Clients",
+      "yearsActive": "Years Active"
+    },
+    "feature1": {
+      "title": "Decades of Experience",
+      "description": "Our senior team brings decades of expertise navigating complex media landscapes across Fortune 500 sectors."
+    },
+    "feature2": {
+      "title": "Uncompromised Quality",
+      "description": "We maintain pixel-perfect execution and premium production standards. \"Good enough\" is not in our vocabulary."
+    },
+    "feature3": {
+      "title": "Constant Innovation",
+      "description": "We leverage cutting-edge tech and creative trends before they hit the mainstream, giving you the advantage."
+    },
+    "feature4": {
+      "title": "Unwavering Commitment",
+      "description": "Dedicated account management and 24/7 support availability. We treat your brand reputation as our own."
+    },
+    "feature5": {
+      "title": "On-Time Delivery",
+      "description": "Rigorous project management ensuring deadlines are met, every time. No excuses, just results."
+    },
+    "ctaCard": {
+      "title": "Ready to start?",
+      "description": "Let's build something great together."
+    },
+    "cta": {
+      "title": "Ready to elevate your brand?",
+      "description": "Join the ranks of market leaders who choose us for our precision, passion, and performance.",
+      "startProject": "Start Your Project",
+      "viewPortfolio": "View Portfolio"
+    }
+  }
+}

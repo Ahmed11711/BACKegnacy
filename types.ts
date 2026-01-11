@@ -19,6 +19,7 @@ export interface PortfolioProject {
   id: string;
   title: string;
   category: string;
+  categoryKey: string;
   image: string;
   description: string;
 }
