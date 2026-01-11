@@ -4,6 +4,7 @@ use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\BundleController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\CmsContentController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ProductController;
@@ -44,6 +45,20 @@ Route::get('/bundles/{bundle}', [BundleController::class, 'show']);
 // Public site settings
 Route::get('/settings', [SiteSettingController::class, 'index']);
 Route::get('/settings/{key}', [SiteSettingController::class, 'show']);
+
+// Public CMS content routes
+Route::prefix('cms')->group(function () {
+    Route::get('/content', [CmsContentController::class, 'index']); // Get all content
+    Route::get('/hero', [CmsContentController::class, 'getHero']);
+    Route::get('/services', [CmsContentController::class, 'getServicesPage']);
+    Route::get('/mission', [CmsContentController::class, 'getMission']);
+    Route::get('/testimonials', [CmsContentController::class, 'getTestimonials']);
+    Route::get('/about', [CmsContentController::class, 'getAbout']);
+    Route::get('/portfolio', [CmsContentController::class, 'getPortfolio']);
+    Route::get('/why-us', [CmsContentController::class, 'getWhyUs']);
+    Route::get('/footer', [CmsContentController::class, 'getFooter']);
+    Route::get('/seo', [CmsContentController::class, 'getSeo']);
+});
 
 // Protected routes (require authentication)
 Route::middleware('auth:sanctum')->group(function () {
