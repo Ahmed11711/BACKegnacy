@@ -15,6 +15,23 @@ class CategoryController extends Controller
         private FileUploadService $fileUploadService
     ) {}
 
+
+    public function web()
+    {
+        $categories = Category::where('is_active', true)
+            ->with([
+                'products:id,name,slug,description,short_description,images,category_id,sku',
+            ])
+            ->orderBy('order')
+            ->get();
+
+        return $categories;
+
+
+        return response()->json([
+            'data' => CategoryResource::collection($categories),
+        ]);
+    }
     /**
      * Display a listing of categories
      */

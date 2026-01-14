@@ -18,6 +18,21 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
+
+
+
+
+
+
+
+
+
+
+Route::prefix('web')->group(function () {
+    Route::get('/categories', [CategoryController::class, 'web']);
+    Route::get('/services', [ServiceController::class, 'web']);
+});
+
 // Public routes
 Route::prefix('auth')->group(function () {
     Route::post('/register', [AuthController::class, 'register']);
@@ -83,26 +98,26 @@ Route::middleware('auth:sanctum')->group(function () {
     // Admin routes (require admin role)
     Route::middleware('admin')->prefix('admin')->group(function () {
         Route::get('/dashboard', [AdminController::class, 'dashboard']);
-        
+
         // User management
         Route::get('/users', [AdminController::class, 'users']);
         Route::put('/users/{user}', [AdminController::class, 'updateUser']);
-        
+
         // Product management
         Route::apiResource('products', ProductController::class)->except(['index', 'show']);
-        
+
         // Category management
         Route::apiResource('categories', CategoryController::class)->except(['index', 'show']);
-        
+
         // Service management
         Route::apiResource('services', ServiceController::class)->except(['index', 'show']);
-        
+
         // Bundle management
         Route::apiResource('bundles', BundleController::class)->except(['index', 'show']);
-        
+
         // Site settings
         Route::put('/settings', [SiteSettingController::class, 'update']);
-        
+
         // Activity logs
         Route::get('/activity-logs', [AdminController::class, 'activityLogs']);
     });

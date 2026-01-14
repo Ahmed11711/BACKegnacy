@@ -14,6 +14,17 @@ class ServiceController extends Controller
         private FileUploadService $fileUploadService
     ) {}
 
+    public function web(Request $request)
+    {
+        return   $services = Service::where('is_active', true)
+            ->orderBy('order')
+            ->get();
+
+        return response()->json([
+            'data' => ServiceResource::collection($services),
+        ]);
+    }
+
     /**
      * Display a listing of services
      */
@@ -59,6 +70,7 @@ class ServiceController extends Controller
             'category_id' => 'nullable|exists:categories,id',
             'is_featured' => 'nullable|boolean',
             'is_active' => 'nullable|boolean',
+
         ]);
 
         $data = $request->validated();

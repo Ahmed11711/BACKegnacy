@@ -25,8 +25,25 @@
                 @enderror
             </div>
 
+
+            
             <div>
-                <label for="short_description" class="block text-sm font-medium text-gray-300 mb-2">Short Description</label>
+                <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Service arbic *</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="short_name" 
+                    value="{{ old('short_name') }}"
+                    required
+                    class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+                >
+                @error('short_name')
+                    <p class="text-red-400 text-sm mt-1">{{ $message }}</p>
+                @enderror
+            </div>
+
+            <div>
+                <label for="short_description" class="block text-sm font-medium text-gray-300 mb-2"> Description arbic</label>
                 <input 
                     type="text" 
                     id="short_description" 

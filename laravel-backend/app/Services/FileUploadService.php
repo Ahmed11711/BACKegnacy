@@ -13,12 +13,21 @@ class FileUploadService
      */
     public function upload(UploadedFile $file, string $folder = 'uploads', ?string $disk = null): string
     {
-        $disk = $disk ?? config('filesystems.default');
+        $disk = $disk ?? 'public'; // افتراضياً public
         $extension = $file->getClientOriginalExtension();
         $filename = Str::random(40) . '.' . $extension;
+
+        // تخزين الملف
         $path = $file->storeAs($folder, $filename, $disk);
 
-        return $path;
+        // إنشاء URL كامل حسب الـ disk
+        if ($disk === 'public') {
+            // public disk: مسار مباشر من storage/app/public
+            return asset('storage/' . $path);
+        } else {
+            // أي disk آخر (مثل s3)
+            return Storage::disk($disk)->url($path);
+        }
     }
 
     /**

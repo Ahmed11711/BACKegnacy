@@ -28,7 +28,7 @@ class ProductResource extends JsonResource
             'stock_status' => $this->stock_status,
             'in_stock' => $this->inStock(),
             'is_on_sale' => $this->isOnSale(),
-            'images' => $this->images ? array_map(fn($img) => asset('storage/' . $img), $this->images) : [],
+            'images' => $this->images ?? [],
             'category' => $this->whenLoaded('category', fn() => new CategoryResource($this->category)),
             'category_id' => $this->category_id,
             'is_featured' => $this->is_featured,

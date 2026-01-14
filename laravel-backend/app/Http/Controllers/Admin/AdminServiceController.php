@@ -53,6 +53,7 @@ class AdminServiceController extends Controller
             'name' => 'required|string|max:255',
             'description' => 'nullable|string',
             'short_description' => 'nullable|string',
+            'short_name' => 'nullable|string',
             'price' => 'nullable|numeric|min:0',
             'icon' => 'nullable|string',
             'images' => 'nullable|array',

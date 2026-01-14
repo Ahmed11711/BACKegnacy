@@ -19,6 +19,7 @@ class Service extends Model
         'description_ar',
         'short_description',
         'short_description_ar',
+        'short_name',
         'price',
         'icon',
         'images',
